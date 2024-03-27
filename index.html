@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SipChat</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <center>
+        <h1>SipChat</h1>
+        <SMALL>MADE BY @GIISSPICYTEA</SMALL>
+        <div id="post-form">
+            <textarea id="post-text" class="area" placeholder="Share the 🔥SPICE🔥"></textarea>
+            <button id="post-button" onclick="post()"><center>📤</center></button>
+        </div>
+    </center>
+
+    <div id="app">
+        <div id="posts-container">
+            <!-- Posts will be dynamically added here -->
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-database-compat.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
